@@ -53,8 +53,7 @@
          </div>
 
          <div id= "bottom_box">
-          <h5><font color="lightblue"> For more useful information check out this url <a ref="#!"> JavaScript! </a> </h5>
-          </font>
+          <h5> <font color="lightblue"> For more useful information check out this url </h5> </font> <a ref="#!"> JavaScript!  </a> 
          </div>
 
       </div><!-- end of wrapper -->

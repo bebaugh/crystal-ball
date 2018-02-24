@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Accordance</title>
+      <link rel="stylesheet" type="text/css" href="exam1.css">
+   </head>
+   <body>
+       <div id="wrapper" img src="main.png";>
+         <div id="header"> <div align="right">
+           <form action="#">
+           <input type="text" name="search" placeholder="search"/> 
+           <input type="submit" value="Search Here"/>
+        </form>
+         </div>
+         <div id="navigation">
+         </div>
+         <div id="upperbottom"></div>
+         <div id="lowerbottom"></div>
+         <div id="verybottom1">
+           <h5>About</h5>
+             <ul>
+                <li>Accordance Advantage</li>
+                <li>Videos</li>
+                <li>Feature Tour</li>
+                <li>Endorsements</li>
+                <li>Reviews</li>
+          </div> 
+          <div id="verybottom2">
+           <h5>Platform</h5>
+             <ul>
+                <li>Accordance for Mac</li>
+                <li>Accordance for iOS</li>
+                <li>Accordance for Windows</li>
+             </ul>
+           </div>
+           <div id="verybottom3">
+           <h5>Store</h5>
+             <ul>
+                <li>Products</li>
+                <li>Upgrades</li>
+                <li>Purchase Options</li>
+                <li>New Releases</li>
+                <li>Current Specials</li>
+                <li>Gift Card</li>
+             </ul>
+           </div>
+           <div id="verybottom4">
+           <h5>Support</h5>
+             <ul>
+                <li>Sources of Support</li>
+                <li>Podcasts</li>
+                <li>Help</li>
+                <li>Training Seminars</li>
+                <li>Articles</li>
+                <li>Downloads</li>
+          </div> 
+          <div id="verybottom5">
+           <h5>Community</h5>
+             <ul>
+                <li>Forums</li>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Youtube</li>
+                <li>Promote Accordance</li>
+             </ul>
+           </div>
+           <div id="verybottom6">
+           <h5>Oaktree</h5>
+             <ul>
+                <li>Company</li>
+                <li>Contact</li>
+                <li>Press</li>
+                <li>Sitemap</li>
+             </ul>
+           </div>
+
+           <div id="bottom bar">
+          <p>Toll Free (877)-339-5855 <a href="#"> orders@accordancebible.com</a> ©2012 OakTree Software</p>
+
+         </div>
+      </div><!-- end of wrapper -->
+   </body>
+</html>

@@ -1,0 +1,83 @@
+#header{
+ width:100%; 
+ background-color: navy;
+ display: inline-block;
+}
+.button {
+    background-color: navy;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#wrapper{
+ height: 600px;	
+ width: 1800px;
+ background-image: url("mainimg.png"); 
+ background-color: silver;
+ margin: 20px auto;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
+}
+
+#one{
+height: 200px;
+width: 400px;
+background-color: lightblue;
+display: inline-block;
+}
+
+
+#two{
+height: 200px;
+width: 400px;
+background-color: lightblue;
+display: inline-block;
+}
+
+#three{
+height: 200px;
+width: 400px;
+background-color: lightblue;
+display: inline-block;
+}
+
+#world {
+height: 200px;
+width: 500px;
+background-color: white;
+}
+
+#testimonial {
+height: 200px;
+width: 300px;
+display: inline-block;
+background-color: #C0D6E4;
+}
+
+#bottom {
+width: 100%;
+height: 50px;
+background-color: #C0D6E4;
+}
+
+.button2 {
+    background-color: #C0D6E4;
+    border: none;
+    color: darkblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>James Consulting</title>
+      <link rel="stylesheet" type="text/css" href="exam-one.css">
+   </head>
+   <body>
+   <div id ="header"; align:right> 
+   	 	<h1> James Consulting</h1>
+   	 	<button class="button">Home</button>
+        <a href="#" class="button">About</a>
+   <button class="button">Services</button>
+   <button class="button">Projects</button>
+   <button class="button">Clients</button>
+   	 	<form action="#">
+            <input type="text" name="search" placeholder="search"/> 
+            <input type="submit" value="Search Here"/>
+          </form>
+      </div>
+     <div id="wrapper" img src="mainimg.png";>
+   	 </div>
+ 	</body>
+
+ 	<box id ="one">
+ 		<a target="#" href="icon.png">
+		  <img src="icon.png" alt="icon" width="20" height="20";>
+ 	    </a>
+ 		<h4>Services</h4>
+ 		<p>You have an idea about where you want your business to go?  Need some help getting there? We are the experts at helping our customers take their businesses to the next stage.  We look forward to transforming your business...</p> 
+ 	<button class="click">More info</button>
+ 	</box>	
+
+ 	<box id ="two" >
+ 	  <a target="#" href="icon.png">
+	    <img src="icon.png" alt="icon" width="20" height="20";>
+	  </a>
+ 		<h4>Projects</h4>
+ 		<p>We worked with Pinktrip, a local fashion retailer, in 2010.  They had a dream to take their business to the next level and drawn in a national base of customers, while retaining the local feel of their store online.  We redesigned...</p> 
+ 	<button class="click">More info</button>
+ 	</box>	
+
+ 	<box id ="three"> 
+	  <a target="#" href="icon.png">
+ 		<img src="icon.png" alt="icon" width="20" height="20";>
+ 	</a>
+ 		<h4>Clients</h4>
+ 		<p>We have worked with a variety of businesses varying from non-profit to corporate to retail. Although our clients have ranged in size to large corporations, our niche is helping small and medium sized clients discover..</p> 
+ 	<button class="click">More info</button>
+ 	</box>
+
+ 	<class id ="world"> 
+ 		 <h5>THE WORLD CAN BE YOURS!</h5>
+ 		 <img src="building.png" alt="building" width="500" height="200";>
+ 		  <p>Our goal at James Consulting is to provide effective solutions designed to boost your business, be it small or large.</p>
+ 		  <p>Our consultants design solutions tailored specfically to the needs of your business in order to ensure you achieve your dreams of success.</p>
+ 		  <p>Check out our custom solutions and services.</p>
+ 		  <p> <a href="#">Learn More</a> </p>
+ 		</class>
+
+ 	<class id ="testimonial">
+ 	<h2>TESTIMONIAL</h2>
+ 	<h3>"I'm a testimonial. Click me to edit and add text that says something nice about you and your services."</h3>	
+ 	<h5>Samantha Jones, Project Manager</h5>
+ </class>
+
+<div id ="bottom";> 
+   	 	<button class="button2">Home</button>
+        <a href="#" class="button2">About</a>
+   <button class="button2">Services</button>
+   <button class="button2">Projects</button>
+   <button class="button2">Clients</button>
+</div>
+
+ 
+</html>

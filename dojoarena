@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="dojoarena.css">
+<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script type="text/javascript">
+	
+
+$(document).ready(function()
+{
+	$("#wrapper").click(function(){
+	$(this).css("background", "blue");
+});
+
+});
+</script>
+
+
+
+	
+
+
+</head>
+<body>
+
+<div id="wrapper">
+	<div class="maincontent">
+		<div class="third">
+			<h1>Select Arena</h1>
+			</div>
+		<div class="first">
+			<div class="beach">	<p>beach</p> </div>
+			<div class="beach"> <p>planet</p></div>
+			<div class="beach"> <p>dojo</p> </div>
+         </div>
+         <div class="second">
+			<div class="beach"> <p>forest</p></div>
+			<div class="beach"> <p>matrix</p> </div>
+			<div class="beach"> <p>snow</p> </div>
+         </div>
+</div>
+
+</div>
+
+
+
+</body>
+</html>

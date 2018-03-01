@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="dojoarena.css">
+<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script type="text/javascript">
+	
+
+$(document).ready(function()
+{
+// 	$("#wrapper").click(function(){
+// 	$(this).css("background", "blue");
+// });
+
+	// $(".beach").click(function(){
+	// $('#wrapper').css("background-image", "url(file:///Users/brennanebaugh/Desktop/dojoarena/beach.jpg)");
+	// 	});
+	// $(".beach").hover(function(){
+	// $('#wrapper').css("background-image", "url(file:///Users/brennanebaugh/Desktop/dojoarena/beach.jpg)");
+	// 	});
+	$(".beach").click(function(){
+	$('.select').hide();
+		});
+	$(".beach").click(function(){
+	$('.select').show();
+		});
+
+
+	
+	$(".planet").click(function(){
+	$('#wrapper').css("background-image", "url(file:///Users/brennanebaugh/Desktop/dojoarena/earth.jpg)");
+		});
+	$(".planet").hover(function(){
+	$('#wrapper').css("background-image", "url(file:///Users/brennanebaugh/Desktop/dojoarena/earth.jpg)");
+		});
+
+
+	$(".dojo").hover(function(){
+	$('#wrapper').css("background-image", "url(file:///Users/brennanebaugh/Desktop/dojoarena/dojo.jpg)");
+		});
+	$(".dojo").click(function(){
+	$('#wrapper').css("background-image", "url(file:///Users/brennanebaugh/Desktop/dojoarena/beach.jpg)");
+		});
+
+
+    $(".forest").click(function(){
+	$('#wrapper').css("background-image", "url(file:///Users/brennanebaugh/Desktop/dojoarena/forest.jpg)");
+		});
+    $(".forest").hover(function(){
+	$('#wrapper').css("background-image", "url(file:///Users/brennanebaugh/Desktop/dojoarena/forest.jpg)");
+		});
+
+
+    $(".matrix").click(function(){
+	$('#wrapper').css("background-image", "url(file:///Users/brennanebaugh/Desktop/dojoarena/matrix.jpg)");
+		});
+    $(".matrix").hover(function(){
+	$('#wrapper').css("background-image", "url(file:///Users/brennanebaugh/Desktop/dojoarena/matrix.jpg)");
+		});
+
+    $(".snow").click(function(){
+	$('#wrapper').css("background-image", "url(file:///Users/brennanebaugh/Desktop/dojoarena/snow.jpg)");
+		});
+    $(".snow").hover(function(){
+	$('#wrapper').css("background-image", "url(file:///Users/brennanebaugh/Desktop/dojoarena/snow.jpg)");
+		});
+
+
+
+
+});
+
+
+</script>
+
+
+
+	
+
+
+</head>
+<body>
+
+<div id="wrapper">
+	<div class="select">
+		<div id="firstDiv">
+			<h2>Sellect Players</h2>
+			<select>
+			  <option value="volvo">Donny</option>
+			  <option value="saab">Leo</option>
+			  <option value="mercedes">Mikey</option>
+			  <option value="audi">Rafeal</option>
+			</select>
+			<select>
+			  <option value="volvo">Donny</option>
+			  <option value="saab">Leo</option>
+			  <option value="mercedes">Mikey</option>
+			  <option value="audi">Rafeal</option>
+			</select>
+		</div>
+	</div>
+	<div class="maincontent">
+
+		<div class="third">
+			<h1>Select Arena</h1>
+			</div>
+		<div class="first">
+			<div class="beach">	<p>beach</p> </div>
+			<div class="planet"> <p>planet</p></div>
+			<div class="dojo"> <p>dojo</p> </div>
+         </div>
+         <div class="second">
+			<div class="forest"> <p>forest</p></div>
+			<div class="matrix"> <p>matrix</p> </div>
+			<div class="snow"> <p>snow</p> </div>
+         </div>
+</div>
+
+</div>
+
+
+
+</body>
